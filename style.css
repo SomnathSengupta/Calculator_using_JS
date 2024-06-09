@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+body{
+    background-color: #FFBF78;
+}
+.container{
+    height: 88.5vh;
+    display: flex;
+    justify-content: center;
+    aligh-items: center;
+}
+.calculator{
+    margin-top: 107px;
+    width: 43%;
+    background-color: #F8F4E1;
+    border-radius: 20px;
+}
+.display{
+    margin: 27.3px;
+    margin-top: 30px;
+    height: 150px;
+    width: 93.3%;
+    background-color: #A7E6FF;
+    border-radius: 20px;
+    font-size: 65px;
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.AC,.DEL {
+    height: 90px;
+    flex-basis: 360px;
+    border-radius: 20px;
+}
+.keys{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.key{
+    height: 90px;
+    width: 180px;
+    border-radius: 20px;
+}
+#devide, #add, #minus, #multiply{
+    background-color: #FF7D29;
+    color: white;
+}
+.key:hover{
+    cursor: pointer;
+}
+
+
